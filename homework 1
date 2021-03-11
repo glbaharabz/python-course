@@ -1,0 +1,11 @@
+nums = list(range(30))
+teksayılar= [i for i in nums if i % 2 ==1]
+ciftsayılar= [i for i in nums if i % 2== 0 ]
+tamsayilar = [i for i in nums]
+tamsayilarinikikati = [i*2 for i in nums]
+
+print(teksayılar)
+print(ciftsayılar)
+print(tamsayilar)
+print(tamsayilarinikikati)
+print(type(tamsayilarinikikati))
